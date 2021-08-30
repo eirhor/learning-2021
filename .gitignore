@@ -1203,3 +1203,6 @@ dist
 # Local History for Visual Studio Code
 .history/
 
+.idea\vcs.xml
+.idea\modules.xml
+.idea\learning-2021.iml
