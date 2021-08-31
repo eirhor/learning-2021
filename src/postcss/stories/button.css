@@ -8,7 +8,7 @@
   line-height: 1;
 }
 
-@media(--small-viewport) {
+@media(--medium) {
   .storybook-button {
     border-radius: 0;
   }
