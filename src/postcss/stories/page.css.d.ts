@@ -4,7 +4,6 @@ declare const identifiersMap: CssIdentifiersMap
 export default identifiersMap
 
 export type CssIdentifiersMap = {
-  ":container(font-size": string|undefined
   "aspect": string|undefined
   "tip": string|undefined
   "tip-wrapper": string|undefined
