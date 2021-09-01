@@ -1,0 +1,5 @@
+@custom-media --landscape (orientation: landscape);
+@custom-media --medium (min-width: 640px);
+@custom-media --large (min-width: 1024px);
+@custom-media --large-landscape (min-width: 1024px) and (orientation: landscape);
+@custom-media --xlarge (min-width: 2560px);
