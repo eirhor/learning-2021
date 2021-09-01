@@ -6916,6 +6916,14 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-css-mqpacker@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/node-css-mqpacker/-/node-css-mqpacker-8.0.1.tgz#bb544fde0dad48da030730ad3a082bc2b2e3a40a"
+  integrity sha512-JRnye9G2af0d6Nt7cOwbFqIwavti3wa9wijRr++xUj4RPk05Gx2xQeTOkb0fDWXHreysk0gMeP3Hj54vV3KICQ==
+  dependencies:
+    minimist "^1.2.5"
+    postcss "^7.0.32"
+
 node-dir@^0.1.10:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/node-dir/-/node-dir-0.1.17.tgz#5f5665d93351335caabef8f1c554516cf5f1e4e5"
@@ -7486,10 +7494,27 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
+postcss-add-root-selector@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-add-root-selector/-/postcss-add-root-selector-1.0.4.tgz#b799a9b749824fcc171efc8faf6ad8b81863027b"
+  integrity sha512-Iw3kZC/z/Ec97B+/WVUxgiCT3YQ9vdPFWvwQ5fqp7PtypSXirpWPSyiR6UdD5dj5pJXnPi15XjEr/9vkhAwCwA==
+
+postcss-combine-duplicated-selectors@^10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-combine-duplicated-selectors/-/postcss-combine-duplicated-selectors-10.0.3.tgz#71e8b6783e99cd560cf08ba7b896ad0db318c11c"
+  integrity sha512-IP0BmwFloCskv7DV7xqvzDXqMHpwdczJa6ZvIW8abgHdcIHs9mCJX2ltFhu3EwA51ozp13DByng30+Ke+eIExA==
+  dependencies:
+    postcss-selector-parser "^6.0.4"
+
 postcss-custom-media@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-8.0.0.tgz#1be6aff8be7dc9bf1fe014bde3b71b92bb4552f1"
   integrity sha512-FvO2GzMUaTN0t1fBULDeIvxr5IvbDXcIatt6pnJghc736nqNgsGao5NT+5+WVLAQiTt6Cb3YUms0jiPaXhL//g==
+
+postcss-d-ts@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/postcss-d-ts/-/postcss-d-ts-1.2.0.tgz#de1732a214d2110c7bdc1b3d725cc3dbaeb17e32"
+  integrity sha512-tDobGnUFkarZ/kUSX99OBgulRunJcSFZrARUzzzn7nynrjAZF3mAdP+E6Ql/YDd9e8uwzGknt+F+TxRdZGCRCg==
 
 postcss-flexbugs-fixes@^4.2.1:
   version "4.2.1"
@@ -7542,7 +7567,7 @@ postcss-modules-values@^3.0.0:
     icss-utils "^4.0.0"
     postcss "^7.0.6"
 
-postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
+postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
   integrity sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==
@@ -7577,6 +7602,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"
+  integrity sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==
 
 prettier@~2.2.1:
   version "2.2.1"

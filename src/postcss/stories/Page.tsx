@@ -13,6 +13,9 @@ interface PageProps {
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) => (
   <article>
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
+    <div className={"aspect"}>
+      <h3>HELLO WORLD</h3>
+    </div>
 
     <section>
       <h2>Pages in Storybook</h2>

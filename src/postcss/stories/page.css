@@ -8,6 +8,11 @@ section {
   color: #333;
 }
 
+.aspect {
+  background-color: green;
+  width: 160px;
+}
+
 h2 {
   font-weight: 900;
   font-size: 32px;
